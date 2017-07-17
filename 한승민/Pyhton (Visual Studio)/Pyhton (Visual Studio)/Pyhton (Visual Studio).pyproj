@@ -1,0 +1,56 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>4c7f6d0e-e0f7-4b09-8e44-34dedf67d0c1</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>2. while 실습.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Pyhton (Visual Studio)</Name>
+    <RootNamespace>Pyhton (Visual Studio)</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="3. for 실습.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4. 함수 실습.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5. 입출력 실습.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Function_Package\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1. if 실습.py" />
+    <Compile Include="Function_Package\default.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="2. while 실습.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Function_Package\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
