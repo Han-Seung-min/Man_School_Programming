@@ -6,10 +6,9 @@ print(a)
 print("%d" % (a ** 3))
 
 # 2번 ???
-'''
-a = 3.14
-print("%d" % (a%    ))
-'''
+a = int(input("숫자입력>"))
+print("%d" % (a%3))
+
 
 # 3번
 a = int(input("a 입력"))
@@ -31,12 +30,11 @@ full_name = family_name + first_name
 print(full_name)
 
 # 7번
-'''
-myTuple = (1, 2, 3)
-sum_Tuple = (4)
-myTuple = myTuple + sum_Tuple
-print(myTuple)
-'''
+tupleA = (1, 2)
+tupleB = (3, 4)
+tuple_sum = tupleA + tupleB
+print(tuple_sum)
+
 
 # 8번
 a = int(input("a값 입력>"))
@@ -46,7 +44,13 @@ if a < 0 :
 print(a)
 
 # 9번
+a = int(input("a값 입력>"))
+b = int(input("b값 입력>"))
 
+if a+b <= 999 :
+    print(a+b)
+else :
+    print("999")
 
 # 10번
 a = int(input("a 입력>"))
