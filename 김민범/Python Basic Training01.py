@@ -61,3 +61,19 @@ else :
     print("짝수")
 
 # 11번
+
+
+# 12번
+for i in [2, 4, 6, 8] :
+    for j in range(1,i) :
+        j += 1
+        print("%d * %d = %.2d" % (i, j, (i * j)), end = "  ")
+    print(" ")
+
+# 13번
+
+
+# 14번
+
+    
+    
