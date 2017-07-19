@@ -71,7 +71,17 @@ for i in [2, 4, 6, 8] :
     print(" ")
 
 # 13번
+"""
+sample = [ ]
 
+while i != " " : 
+    for i in input("sample 입력(space 입력시 중단)>") :
+        if i == " ": continue
+        else :
+            sample.append(i)
+
+print(sample)
+"""
 
 # 14번
 
