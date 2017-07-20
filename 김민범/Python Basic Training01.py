@@ -108,17 +108,16 @@ for i in [2, 4, 6, 8] :
 print("-" * 30)
 
 # 13번
-"""
-sample = [ ]
+sample = []
 
-while i != " " : 
-    for i in input("sample 입력(space 입력시 중단)>") :
+while i != " " :
+    for i in [input("sample 입력(space 입력시 중단)")] :
         if i == " ": continue
         else :
+            list(i)
             sample.append(i)
 
 print(sample)
-"""
 
 print("-" * 30)
 
