@@ -128,7 +128,7 @@ for x in range(0,10) :
     for y in range(0,10) :
         if ((x*10) + y) + ((y*10) + x) == 99 :
             print("x의 값 : %d" % x)
-            print("y의 갑 : %d" % y)
+            print("y의 값 : %d" % y)
             print("%d + %d = %d" % (((x*10) + y), ((y*10) + x), ((x*10) + y) + ((y*10) + x)))
             print("=" * 20)
     
